@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Games</title>
+  </head>
+   <link rel="stylesheet" href="stylesheets/games_quiz.css">
+   <link href="https://fonts.googleapis.com/css?family=Concert+One|Nunito" rel="stylesheet">
+  <body>
+    <h1 class= "title"> | Game Quiz | </h1>
+    <div class="container">
+
+      <h4 class="caption"> Find which game to play!!!</h4>
+      <div class="question">
+      <form action="/game_results" method="post">
+      <h2>Which device would you like to use?</h2>
+        <input type="radio" name="device" value="1">Computer<br>
+        <input type="radio" name="device" value="5">Phone<br>
+        <h2>What kind of game would you like to play?</h2>
+        <input type="radio" name="Categorie" value="1">Action<br>
+        <input type="radio" name="Categorie" value="2"> Puzzle<br>
+        <input type="radio" name="Categorie" value="3">Dumb<br>
+        <input type="radio" name="Categorie" value="4">Arcade<br>
+        
+        <button type = "submit" class="new"> Let's play! </button>
+          
+      </form>
+    </div>
+  </div>
+
+  </body>
+</html>

@@ -1,0 +1,23 @@
+.title {color: black;  text-align: center; font-family: 'Concert One', cursive; font-size: 70px; text-shadow: 3px 4px  red;}
+
+body {text-align :center; background-color: yellow;}
+
+.name{color: black; text-align:center; font-family: 'Concert One', cursive; font-size:30px;}
+
+.myList{ list-style-type: none; text-align: center}
+
+#pacman {width:300px; height:300px;}
+#jellyjump {width:300px; height:300px;}
+#helixjump {width:300px; height:300px}
+
+#home {
+  display: inline-block; padding: 10px 20px; font-size: 20px;           background-color: white; text-align: center; color: lightblue;       border: 2px solid white; font-family: 'Concert One', cursive;       position:absolute; top:1170px; left:690px
+  }
+
+  #home:hover {background-color: #00344d}
+
+  #home:active {
+  background-color: #00344d;
+  box-shadow: 0 5px ;
+  transform: translateY(4px);
+  }

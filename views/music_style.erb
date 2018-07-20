@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MusicFinal</title>
+      <link rel="stylesheet" href="stylesheets/music_style.css">
+      <link href="https://fonts.googleapis.com/css?family=Concert+One|Nunito+Barcode+128+Text|Questrial" rel="stylesheet">
+  </head>
+  
+  <body>
+    <div class="container">
+      <h1 class="header">Music Break</h1>
+
+      <h4 class="caption"> Find which genre do you feel like jamming to!</h4>
+      
+      <div class="question">
+      <form action="/music_results" method="post">
+      <h2>How're you feeling during this fine "Brain Break"?</h2>
+        <input type="radio" name="genre" value="1">Happy<br>
+        <input type="radio" name="genre" value="2">Trappy<br>
+        <input type="radio" name="genre" value="3">Peaceful<br>
+        <input type="radio" name="genre" value="4">Sad<br>
+          <button type = "submit" class="new"> Let's listen! </button>
+      </form>
+    </div>
+  </div>
+
+  </body>
+</html>

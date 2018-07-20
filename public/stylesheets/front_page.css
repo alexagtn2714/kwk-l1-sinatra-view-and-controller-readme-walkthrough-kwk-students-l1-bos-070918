@@ -1,0 +1,16 @@
+.title{color: black; text-align: center; font-family: 'Concert One', cursive; font-size: 70px; text-shadow: 3px 4px  red; }
+
+
+#upleft { color: black; text-align: center; font-family: 'Concert One', cursive; font-size: 60px; position:absolute; right:0px;width: 720px; height: 80px; background:lightblue	; float:left; padding: 210px 0;}
+
+#upright { color: black; text-align: center; font-family: 'Concert One', cursive; font-size: 60px; position:absolute; left:0px;width:720px; height:80px; background:yellow; float:left; padding: 210px 0; 
+}
+
+#below { color: black; text-align: center; font-family: 'Concert One', cursive; font-size: 50px; position:absolute; top:700px; height:200px; width:100%; background:white; clear:both}
+
+.flicker1{position:absolute; top:19px; left:475px; height:70px; width:45px}
+.flicker2{position:absolute; top:14px; right:456px;height:85px; width:58px}
+
+#About_us{ text-align: center; font-size: 25px; font-family: 'Nunito', sans-serif; position:absolute; top: 750px; left:100px; right: 100px;}
+
+.small { font-size: 0.9em; text-align:right; position:absolute; top:850px; right:5px; }
